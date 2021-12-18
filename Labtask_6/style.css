@@ -1,0 +1,351 @@
+/**
+ * Base Style
+ */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.625rem;
+    margin: 1rem;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.625rem;
+    margin: 0rem;
+}
+
+img {
+    display: block;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.button_center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.table_center {
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.legend_center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.registration_center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.login_center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.forgetpass_center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.login_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.view_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.edit_profile_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.change_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.forget_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+.forget_pass_center_text {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.charge_forget_pass_table_center {
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110%;
+}
+/**
+ * Header Style
+ */
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 12rem;
+    border: 1px solid black;
+    background-color: midnightblue;
+}
+
+.header__logo {
+    display: block;
+    margin-left: 0.25in;
+    margin-right: auto;
+    margin-top: 0.25in;
+    flex-basis: 25%;
+}
+
+.header__logo > a > img {
+    height: 7rem;
+}
+
+.header__navigation {
+    display: -moz-box;
+    margin-left: auto;
+    margin-right: 0.5in;
+    text-align: right;
+    color: aliceblue;
+    width: 30%;
+}
+
+.header__navigation > ul > li {
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.header__navigation > ul > li::after {
+    content: " ";
+    font-size: 1rem;
+}
+
+.header__navigation > ul > li:last-child:after {
+    content: " ";
+}
+
+.header__navigation > ul > li > a,
+.header__navigation > ul > li > span {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.side_menu__navigation {
+    display: -moz-box;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+}
+
+.side_menu__navigation > ul > li {
+    display: inline-block;
+}
+
+
+.side_menu__navigation > ul > li > h1{
+    font-size: 1rem;
+    color:black;
+    background-color: transparent;
+}
+
+.side_menu__navigation > ul > li > a
+{
+    font-size: 1rem;
+    color:black;
+    background-color: transparent;
+    
+    border: 1px solid black;
+}
+
+/**
+ * Footer Style
+ */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border: 1px solid black;
+}
+
+.footer > p {
+    font-size: 1rem;
+}
+
+/**
+ * Main Style
+ */
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 1rem;
+    padding: 1.25rem;
+}
+
+.main__content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0.625rem;
+}
+
+/**
+ * Aside Style
+ */
+
+.aside {
+    display: -moz-box;
+    margin-right: auto;
+    margin-left: 0.5in;
+    text-align: left;
+    color: aliceblue;
+    width: 30%;
+}
+
+.aside__menu ul {
+    display: -moz-box;
+    margin-left: auto;
+    margin-right: 1in;
+    text-align: center;
+    color: white;
+    width: 30%;
+}
+
+.aside__menu ul > li {
+    border: 1px solid black;
+}
+
+/**
+ * Registration Style
+ */
+
+.main__content--registration table tr td:first-child {
+    text-align: center;
+    width: 11.875rem;
+}
+
+/**
+ * View Profile Style
+ */
+
+.main__content--view-profile__container {
+    display: flex;
+}
+
+.main__content--view-profile__details {
+    flex-basis: 75%;
+}
+
+.main__content--view-profile__details table {
+    border-collapse: collapse;
+}
+
+.main__content--view-profile__details table tr {
+    border-bottom: 1pt solid black;
+}
+.main__content--view-profile__details table tr td {
+    padding: 0.625rem;
+}
+
+.main__content--view-profile__details table tr td:first-child {
+    text-align: left;
+    width: 7.875rem;
+}
+
+.main__content--view-profile__profile-pic {
+    flex-basis: 25%;
+}
+
+.main__content--view-profile__profile-pic img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.main__content--view-profile__profile-pic a {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/**
+ * Edit Profile Style
+ */
+
+.main__content--edit-profile form table tr td:first-child {
+    text-align: left;
+    width: 7.875rem;
+}
+
+/**
+ * Change Profile Picture Style
+ */
+
+.main__content--change-pp__form fieldset table tr td img {
+    max-width: 500px;
+}
